@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com dados</title>
+    <style>
+        h1 {
+            font-family: Arial;
+        }
+        button {
+            background-color: #e6e5e5;
+            border: 0.1px solid;
+            border-radius: 0.2em;
+            padding: 35px;
+            font: 12pt Arial;
+        }
+         button:hover{
+             background-color: #cacaca;
+         }
+
+         body {
+             font: 22pt Arial ;
+         }
+
+
+    </style>
+</head>
+<body>
+    <p><strong>Trabalhando com dados</strong></p>
+    <button onclick="clicou()">Click me, please!</button>
+    <script>
+        function clicou(){
+            var nome = window.prompt('Digite o seu nome:')
+            window.alert(`Olá, ${nome}! É um prazer te conhecer!`)
+        }
+    </script> 
+</body>
+</html>
