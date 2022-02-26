@@ -22,3 +22,10 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#txttabuada {
+    font-size: 9pt;
+    width: 170px;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
